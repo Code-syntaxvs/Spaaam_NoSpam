@@ -19,3 +19,6 @@ if st.button("Check Message"):
             st.error("This message is classified as SPAM.")
         else:
             st.success("This message is classified as HAM.")
+
+pip install -r requirements.txt
+streamlit run app.py
